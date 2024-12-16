@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1653240228446.2,"dur": 9086320, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1653240843389.5,"dur": 231005.4, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1653242409421.8,"dur": 6373637.6, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "04/21/2024 03:32:07",
+"meta_command_line": "\"C:\\Program Files\\Unity 2021.2.0f1\\Editor\\Unity.exe\" -projectpath C:\\Users\\90507\\Desktop\\oyuncakvurma -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-90507 -hubSessionId 6acc892e-edf4-4e49-b132-89ae48cf1a58 -accessToken 7r698ngmMLXLDHE_0DttTgY81bpSViL1_e1aPRo8Zk8011f",
+"meta_command_line_args": "C:\\Program Files\\Unity 2021.2.0f1\\Editor\\Unity.exe -projectpath C:\\Users\\90507\\Desktop\\oyuncakvurma -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-90507 -hubSessionId 6acc892e-edf4-4e49-b132-89ae48cf1a58 -accessToken 7r698ngmMLXLDHE_0DttTgY81bpSViL1_e1aPRo8Zk8011f",
+"meta_user_name": "90507",
+"meta_os_version": "Microsoft Windows NT 10.0.19045.0",
+"meta_cpu_count": "8"
+}
